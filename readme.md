@@ -1,6 +1,6 @@
 
 # Simpl jQuery Gallery
-Uses jQuery and Bootstrap
+Simple jQuery gallery for web projects
 
 ## Installation
 git clone https://github.com/AMSteffensen/amsimpl.git
