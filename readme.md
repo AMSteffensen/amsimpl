@@ -1,5 +1,5 @@
 
-# Simpl jQuery Gallery
+# AMSimpl jQuery Gallery
 Simple jQuery gallery for web projects
 
 ## Installation
