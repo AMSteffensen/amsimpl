@@ -1,9 +1,5 @@
 'use strict';
 
-// var myInterval = setInterval(function() {
-//     console.log(new Date());
-// }, 1000)
-
 $(function(){
     //configuration
     var width = 720;
@@ -12,9 +8,9 @@ $(function(){
     var currentSlide = 1;
 
     //cahce dome
-    var $slider = $('.slider');
-    var $slideContainer = $slider.find('.slides');
-    var $slides = $slideContainer.find('.slide');
+    var $slider = $('.amslider');
+    var $slideContainer = $slider.find('.amslides');
+    var $slides = $slideContainer.find('.amslide');
 
     var interval;
     
@@ -38,6 +34,4 @@ $(function(){
     }
 
     $slider.on('mouse-enter', stopSlider).on('mouse-leave', startSlider)
-
-    startSlider();
 });
