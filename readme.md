@@ -8,13 +8,13 @@ git clone https://github.com/AMSteffensen/amsimpl.git
 ### Include css and JavaScript files
 
  `<head>
-    <link type="text/css" rel="stylesheet" href="css/gallery.css" /></head>`
+    <link type="text/css" rel="stylesheet" href="css/amsimpl.css" /></head>`
 
 Copy the folder js and css into your project.
 Then include jQuery and amsimpl.js to your document.
 
     <script src="js/jquery.min.js"></script> 
-    <script src="js/amsimpl.js"></script>
+    <script src="js/amsimpl.min.js"></script>
 
  
 
