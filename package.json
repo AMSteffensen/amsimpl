@@ -1,0 +1,19 @@
+{
+  "name": "amsimpl",
+  "version": "1.0.0",
+  "description": "a jquery gallery plugin",
+  "main": "dist/js/amsimpl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jQuery"
+  ],
+  "author": "Andreas Steffensen",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-css": "^0.1.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
