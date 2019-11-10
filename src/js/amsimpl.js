@@ -1,6 +1,6 @@
 'use strict';
 
-$(function(){
+$(function () {
     //configuration
     var width = 720;
     var animationSpeed = 1000;
@@ -13,8 +13,8 @@ $(function(){
     var $slides = $slideContainer.find('.amslide');
 
     var interval;
-    
-    function startSlider(){
+
+    function startSlider() {
         setInterval(function () {
             interval = $slideContainer.animate({
                 'margin-left': '-=' + width
@@ -27,11 +27,13 @@ $(function(){
             })
         }, pause);
     }
-    
+
     function stopSlider() {
         clearInterval(interval);
         console.log('hello');
     }
 
     $slider.on('mouse-enter', stopSlider).on('mouse-leave', startSlider)
+
+    startSlider();
 });
